@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './components/navbar'
-import Home from './components/home.js'
+import Home from './components/home'
 import About from './components/about.js'
 import Projects from './components/projects.js'
 import Contact from './components/contact.js'
@@ -15,10 +15,10 @@ function App() {
         <Router>
           <Nav />
           <Switch>
-            <Route path="/home" exact component={Home} />
-            <Route path="/about" exact component={About} />
-            <Route path="/projects" exact component={Projects} />
-            <Route path="/contact" exact component={Contact} />
+            <Route path="/home" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </Router>
       </header>

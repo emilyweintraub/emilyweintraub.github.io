@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
 
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Roboto&display=swap');
-
 .App-logo {
     font-family: Shrikhand !important;
     font-size: 75px !important;
@@ -13,7 +11,9 @@
 .topnav > a, .dropdown > .drop, .dropdown-content  {
     margin: 0px 30px;
     font-size: 15px;
-    color: #9da4a8;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #6B6D76;
     position: relative;
 }
 
@@ -29,7 +29,7 @@
 
 .icon {
     margin: 0 20px;
-    color: #9da4a8;
+    color: #6B6D76;
 }
 
 .icons {
@@ -39,7 +39,7 @@
 
 .ico {
     padding: 33px 45px 0 0;
-    color: #9da4a8;
+    color: #6B6D76;
     font-size: 35px;
     text-decoration: none;
     float: right;
@@ -79,4 +79,8 @@
 
 .dropdown{
   display: inline-block !important;
+}
+
+.navbar{
+  background-color: white;
 }
