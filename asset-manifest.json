@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/emilyweintraub.github.io/static/css/main.eaef9e81.chunk.css",
+    "main.js": "/emilyweintraub.github.io/static/js/main.567a5c1d.chunk.js",
+    "main.js.map": "/emilyweintraub.github.io/static/js/main.567a5c1d.chunk.js.map",
+    "runtime-main.js": "/emilyweintraub.github.io/static/js/runtime-main.332a9086.js",
+    "runtime-main.js.map": "/emilyweintraub.github.io/static/js/runtime-main.332a9086.js.map",
+    "static/js/2.fa1e06e4.chunk.js": "/emilyweintraub.github.io/static/js/2.fa1e06e4.chunk.js",
+    "static/js/2.fa1e06e4.chunk.js.map": "/emilyweintraub.github.io/static/js/2.fa1e06e4.chunk.js.map",
+    "index.html": "/emilyweintraub.github.io/index.html",
+    "precache-manifest.66742e9fcb6ab9cb4ec593d3befdef58.js": "/emilyweintraub.github.io/precache-manifest.66742e9fcb6ab9cb4ec593d3befdef58.js",
+    "service-worker.js": "/emilyweintraub.github.io/service-worker.js",
+    "static/css/main.eaef9e81.chunk.css.map": "/emilyweintraub.github.io/static/css/main.eaef9e81.chunk.css.map",
+    "static/js/2.fa1e06e4.chunk.js.LICENSE.txt": "/emilyweintraub.github.io/static/js/2.fa1e06e4.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/emilyweintraub.github.io/static/media/Resume.ec652933.pdf",
+    "static/media/esw.png": "/emilyweintraub.github.io/static/media/esw.d4a7b735.png",
+    "static/media/me.jpg": "/emilyweintraub.github.io/static/media/me.6411bc60.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.332a9086.js",
+    "static/js/2.fa1e06e4.chunk.js",
+    "static/css/main.eaef9e81.chunk.css",
+    "static/js/main.567a5c1d.chunk.js"
+  ]
+}
