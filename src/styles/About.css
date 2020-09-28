@@ -1,6 +1,6 @@
-.about {
-    padding: 3% 15%;
-}
+/* .about {
+    padding: 75px 150px;
+} */
 
 img {
     width: 100%;
@@ -11,32 +11,24 @@ img {
     /* padding: 5% 15%; */
     grid-template-columns: .65fr 1.5fr;
     align-items: center;
-    padding: 0% 3% !important;
+    padding: 0 10px !important;
 }
 
 h1 {
-    font-size: 26px;
+    font-size: 2vw;
 }
 
 .details{
     padding: 0% 10%;
-    font-size: 21px;
-}
-
-.contact > h1 {
-    font-family: Hind;
-    font-size: 40px;
-    margin: 0 0 45px;
+    font-size: 1.5vw;
 }
 
 .Icons {
+    margin: 45px 0 0;
     text-align: center;
     font-size: 30px;
 }
 
-.contact {
-    padding: 12% 0 0;
-}
 
 /* .icon{
     width: 150%;

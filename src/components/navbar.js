@@ -26,7 +26,7 @@ const NavBar = () => {
   return (
     <React.Fragment>
       <nav className="navbar navbar-dark bg-dark mb-3 sticky-nav">
-        <a className="App-logo"><Link to={{ pathname: `/home` }}>esw</Link></a>
+        <a className="App-logo"><Link to={{ pathname: `/home` }} onClick={scrollTop}>esw</Link></a>
         <a href="javascript:void(0);" class="ico" onClick={sayHello}>&#9776;</a>
         <a className="topnav" id="myTopnav">
           <div className="dropdown">

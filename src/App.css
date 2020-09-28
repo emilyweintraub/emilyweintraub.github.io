@@ -4,40 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Hind');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-/* 
-.App {
-  text-align: center;
+.Home, .about {
+  padding: 75px 150px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 a {
   text-decoration: none;
@@ -50,4 +19,52 @@ p {
 
 p, h1 {
   color: #6B6D76;
+}
+
+.contact > h1, .Projects-Header {
+  font-family: Hind;
+  font-size: 40px;
+}
+
+.contact, .Projects {
+  padding: 75px 0 0;
+}
+
+@media screen and (max-width: 850px) {
+  .Home, .about {
+    padding: 50px;
+  }
+
+  .Name {
+    font-size: 7vw;
+  }
+
+  .links {
+    font-size: 2vw;
+  }
+
+  .contact > h1 {
+    font-size: 5vw;
+  }
+
+  #myTopnav {display: none;}
+  .topnav > a {
+      display: block !important;
+      text-align: center;
+      margin: 0px 0px 20px;
+      font-size: 17px;
+  }
+  .ico {
+    display: inline-block;
+  }
+  .topnav.responsive {
+    display: block !important;
+  }
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
 }
