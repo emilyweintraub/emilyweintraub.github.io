@@ -1,9 +1,10 @@
 import React from 'react';
 import Nav from './components/navbar'
+import Footer from './components/footer'
 import Home from './components/home'
-import About from './components/about.js'
-import Projects from './components/projects.js'
-import Contact from './components/contact.js'
+import About from './components/about'
+import Projects from './components/projects'
+import Contact from './components/contact'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -18,8 +19,9 @@ function App() {
             <Route path="/home" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={Contact} />
+            {/* <Route path="/contact" component={Contact} /> */}
           </Switch>
+          <Footer />
         </Router>
       </header>
     </div>

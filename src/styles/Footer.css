@@ -1,0 +1,19 @@
+footer {
+    /* text-align: center; */
+    padding: 40px 0;
+    /* display: inline; */
+    overflow: hidden;
+    /* margin-bottom: 40px; */
+}
+
+.bottom-nav{
+    float: left;
+    /* text-align: left; */
+    padding-left: 30px;
+}
+
+.copyright{
+    /* text-align: right; */
+    float: right;
+    padding-right: 30px;
+}

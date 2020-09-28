@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
 
+
 .App-logo {
     font-family: Shrikhand !important;
     font-size: 75px !important;
@@ -11,7 +12,7 @@
 .topnav > a, .dropdown > .drop, .dropdown-content  {
     margin: 0px 30px;
     font-size: 15px;
-    font-family: Montserrat;
+    font-family: Open Sans;
     font-weight: 600;
     color: #6B6D76;
     position: relative;
