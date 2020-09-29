@@ -43,7 +43,7 @@ p, h1 {
     font-size: 2vw;
   }
 
-  .contact > h1 {
+  .contact > h1, .Projects-Header{
     font-size: 5vw;
   }
 

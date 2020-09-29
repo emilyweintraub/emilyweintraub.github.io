@@ -8,11 +8,9 @@ import { useLocation, Link } from "react-router-dom";
 
 const NavBar = () => {
   const location = useLocation();
-
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
   function sayHello() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -26,11 +24,11 @@ const NavBar = () => {
   return (
     <React.Fragment>
       <nav className="navbar navbar-dark bg-dark mb-3 sticky-nav">
-        <a className="App-logo"><Link to={{ pathname: `/home` }} onClick={scrollTop}>esw</Link></a>
+        <a className="App-logo"><Link to={{ pathname: `/` }} onClick={scrollTop}>esw</Link></a>
         <a href="javascript:void(0);" class="ico" onClick={sayHello}>&#9776;</a>
         <a className="topnav" id="myTopnav">
           <div className="dropdown">
-            <Link class="drop" to={{ pathname: `/home`, state: { fromBanner: true } }} onClick={location.pathname == 'home.js' ? this.targetRef.scrollIntoView({
+            <Link class="drop" to={{ pathname: `/`, state: { fromBanner: true } }} onClick={location.pathname == 'home.js' ? this.targetRef.scrollIntoView({
               behavior: 'smooth'
             }) : undefined}><a>+ Projects</a></Link>
             <div class="dropdown-content">

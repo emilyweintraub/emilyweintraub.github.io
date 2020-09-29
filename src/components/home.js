@@ -18,7 +18,7 @@ class Home extends Component {
                 <div className='top'>
                     <h1 className='Name'>Emily Weintraub</h1>
                     <p className='links'><a href={resume} target="_blank">Resume</a>/
-                <a href={resume} target="_blank">Contact</a>/
+                <a href="mailto:emilysweintraub@gmail.com" target="_blank">Contact</a>/
                 <a href='http://www.linkedin.com/in/emilyweintraub' target="_blank">Linkedin</a>
                     </p>
                 </div>

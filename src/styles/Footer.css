@@ -2,7 +2,9 @@ footer {
     /* text-align: center; */
     /* padding: 40px 0; */
     /* display: inline; */
+    padding-top: 25px;
     overflow: hidden;
+    background-color: #F8f9fa;
     /* margin-bottom: 40px; */
 }
 
@@ -17,3 +19,7 @@ footer {
     float: right;
     padding-right: 30px;
 }
+
+/* hr {
+    border: 3px solid #F8F9FA;
+} */

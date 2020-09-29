@@ -6,14 +6,18 @@ import { useLocation, Link } from "react-router-dom";
 
 const Footer = () => {
     const location = useLocation();
+    const scrollTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
     return (
         <footer className="sticky-footer">
+            {/* <hr /> */}
             {/* <div className="bottom-nav"> */}
             <p className="bottom-nav">
-            <Link class="drop" to={{ pathname: `/home`, state: { fromBanner: true } }} onClick={location.pathname == 'home.js' ? this.targetRef.scrollIntoView({
+            <Link class="drop" to={{ pathname: `/`, state: { fromBanner: true } }} onClick={location.pathname == 'home.js' ? this.targetRef.scrollIntoView({
                 behavior: 'smooth'
             }) : undefined}><a>Projects</a></Link> | 
-            <Link to={{ pathname: `/about` }}><a>About Me</a></Link> | 
+            <Link to={{ pathname: `/about` }} onClick={scrollTop}><a>About Me</a></Link> | 
             <Link to={{ pathname: `/about`, state: { fromBanner: true } }} onClick={location.pathname == 'about.js' ? this.targetRef.scrollIntoView({
                 behavior: 'smooth'
             }) : undefined}><a>Contact</a></Link>
