@@ -52,18 +52,3 @@
 .navbar {
   background-color: #f8f9fa;
 }
-
-/* Start of dropdown css */
-.dropdown-content a {
-  padding: 10px 0 0 14px;
-  display: block !important;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown {
-  display: inline-block !important;
-}
-/* End of dropdown css */
