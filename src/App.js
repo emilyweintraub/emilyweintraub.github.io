@@ -4,7 +4,6 @@ import Footer from './components/footer'
 import Home from './components/home'
 import About from './components/about'
 import Projects from './components/projects'
-import Contact from './components/contact'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -19,7 +18,6 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
             <Route path="/projects" component={Projects} />
-            {/* <Route path="/contact" component={Contact} /> */}
           </Switch>
           <Footer />
         </Router>

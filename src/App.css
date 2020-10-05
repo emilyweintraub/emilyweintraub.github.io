@@ -30,7 +30,7 @@ h1{
   font-size: 40px;
 }
 
-.contact, .Projects {
+.contact{
   padding: 75px 0 0;
 }
 
@@ -55,7 +55,7 @@ h1{
   .topnav > a {
       display: block !important;
       text-align: center;
-      margin: 0px 0px 20px;
+      padding: 0px 0px 20px;
       font-size: 17px;
   }
   .ico {

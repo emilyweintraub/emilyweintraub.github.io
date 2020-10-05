@@ -5,22 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { Link } from "react-router-dom";
-
-// function Scroll(hello){
-//     setTimeout(() => {
-//             this.targetRef.scrollIntoView({
-//                 behavior: 'smooth'
-//             })
-//         }, 500);
-// }
 
 class About extends Component {
     targetRef = React.createRef()
     currentPage = 'about';
     
     render() {
-        // console.log('hi there', this.props.location.state)
         if (this.props.location.state) {
             setTimeout(() => {
             this.targetRef.scrollIntoView({
@@ -28,7 +18,6 @@ class About extends Component {
             })
         }, 500);
         }
-        // if (this.props.fromBanner==true){}
         return (
             <div className="about">
                 <div className="info">
@@ -47,7 +36,7 @@ class About extends Component {
                         Get In Touch:
                 </h1>
                 <div className="Icons" ref={ref => {this.targetRef = ref}}>
-                <a href="mailto:emilysweintraub@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} className="icon" /></a>
+                <a href="mailto:emilysweintraub@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} className="icon" /></a>
                 <a href='https://github.com/emilyweintraub'><FontAwesomeIcon icon={faGithub} className="icon" /></a>
                     <a href='http://www.linkedin.com/in/emilyweintraub'><FontAwesomeIcon icon={faLinkedinIn} className="icon" /></a>
                     </div>

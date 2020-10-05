@@ -17,16 +17,18 @@ class Home extends Component {
             <div className='Home'>
                 <div className='top'>
                     <h1 className='Name'>Emily Weintraub</h1>
-                    <p className='links'><a href={resume} target="_blank">Resume</a>/
-                <a href="mailto:emilysweintraub@gmail.com" target="_blank">Contact</a>/
-                <a href='http://www.linkedin.com/in/emilyweintraub' target="_blank">Linkedin</a>
+                    <p className='links'><a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>/
+                <a href="mailto:emilysweintraub@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>/
+                <a href='http://www.linkedin.com/in/emilyweintraub' target="_blank" rel="noopener noreferrer">Linkedin</a>
                     </p>
                 </div>
-                <div className='Projects'>
-                    <h1 className='Projects-Header' ref={ref => { this.targetRef = ref }}>Projects</h1>
+                <div className='Projects' ref={ref => { this.targetRef = ref }}>
+                    <h1 className='Projects-Header'>Projects</h1>
                     <div className='Projects-Details'>
                         <div className='Project L'>
-                            <div className="Project-Picture"><img /></div>
+                            <div className="Project-Picture">
+                                <img alt="" />
+                            </div>
                             <div>
                                 <h2 className="Title">PeerPal</h2>
                                 <p className="Project-Description">
@@ -41,19 +43,24 @@ class Home extends Component {
                                 <p className="Project-Description">
                                     • Developed site’s navigational user interface using React
                                     • Aggregated public student data from University data books, directors of research, and student surveys
-• Pitched and developed relationship with Northwestern’s Office of Institutional Research to obtain data resources and university support</p>
+                                    • Pitched and developed relationship with Northwestern’s Office of Institutional Research to obtain data resources and university support
+                                </p>
                             </div>
-                            <div className="Project-Picture"><img /></div>
+                            <div className="Project-Picture">
+                                <img alt="" />
+                            </div>
                         </div>
                         <div className='Project L'>
-                            <div className="Project-Picture"><img /></div>
+                            <div className="Project-Picture">
+                                <img alt="" />
+                            </div>
                             <div>
                                 <h2 className="Title">ElCare</h2>
                                 <p className="Project-Description">
                                     • Ideated, developed and pitched ElCare, an application that allows family members to quickly check in with elderly loved ones online
                                     • Conducted user testing with Northwestern students to prototype and adjust ElCare UX
                                     • Created and designed application’s UI using Figma and React
-</p>
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,4 @@
-/* .Home {
-    padding: 20px 0;
-} */
+
 
 .Home, .links, .Name {
     padding: 0 10%;
@@ -16,7 +14,7 @@
 }
 
 .top {
-    height: 270px;
+    height: 235px;
 }
 
 
@@ -32,6 +30,9 @@
 
 .Projects{
     text-align: left;
+    padding: 110px 0 0;
+    /* margin-top: 20px; */
+    /* top: -200px; */
 }
 
 .Project{

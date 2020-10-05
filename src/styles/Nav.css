@@ -1,63 +1,69 @@
-@import url('https://fonts.googleapis.com/css?family=Shrikhand');
-
+@import url("https://fonts.googleapis.com/css?family=Shrikhand");
 
 .App-logo {
-    font-family: Shrikhand !important;
-    font-size: 75px !important;
-    margin-left: 45px !important;
-    /* color: #E3B7A6 !important; */
-    color: #FB6D8E !important;
-  }
-
-.topnav > a, .dropdown > .drop, .dropdown-content  {
-    margin: 0px 30px;
-    font-size: 15px;
-    font-family: Open Sans;
-    font-weight: 600;
-    color: #6B6D76;
-    position: relative;
+  font-family: Shrikhand !important;
+  font-size: 75px !important;
+  margin-left: 45px !important;
+  /* color: #E3B7A6 !important; */
+  color: #fb6d8e !important;
 }
 
-.topnav > a:hover, .dropdown-content > a:hover, .dropdown:hover{
-    text-decoration: underline;
-    
+.topnav > a,
+.dropdown > .drop,
+.dropdown-content {
+  margin: 0px 30px;
+  font-size: 15px;
+  font-family: Open Sans;
+  font-weight: 600;
+  color: #6b6d76;
+  position: relative;
+}
+
+.topnav > a:hover,
+.dropdown-content > a:hover,
+.dropdown:hover {
+  text-decoration: underline;
 }
 
 .sticky-nav {
-    position: sticky;
-    top: 0;
-  }
+  position: sticky;
+  top: 0;
+}
 
 .icon {
-    margin: 0 20px;
-    color: #6B6D76;
+  margin: 0 20px;
+  color: #6b6d76;
 }
 
 .icons {
-    float: right;
-    margin: 60px 45px 0px 0px;
+  float: right;
+  margin: 60px 45px 0px 0px;
 }
 
 .ico {
-    padding: 33px 45px 0 0;
-    color: #6B6D76;
-    font-size: 35px;
-    text-decoration: none;
-    float: right;
-    display: none;
-  }
+  padding: 33px 45px 0 0;
+  color: #6b6d76;
+  font-size: 35px;
+  text-decoration: none;
+  float: right;
+  display: none;
+}
 
-  .dropdown-content a{
-    padding: 10px 0 0 14px;
-    display: block !important;
-  }
+.navbar {
+  background-color: #f8f9fa;
+}
 
-  .dropdown:hover .dropdown-content {display: block;}
+/* Start of dropdown css */
+.dropdown-content a {
+  padding: 10px 0 0 14px;
+  display: block !important;
+}
 
-.dropdown{
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
   display: inline-block !important;
 }
-
-.navbar{
-  background-color: #F8F9FA;
-}
+/* End of dropdown css */

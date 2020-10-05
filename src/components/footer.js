@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import '../styles/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCopyright} from '@fortawesome/free-regular-svg-icons'
@@ -11,23 +11,18 @@ const Footer = () => {
       };
     return (
         <footer className="sticky-footer">
-            {/* <hr /> */}
-            {/* <div className="bottom-nav"> */}
             <p className="bottom-nav">
-            <Link class="drop" to={{ pathname: `/`, state: { fromBanner: true } }} onClick={location.pathname == 'home.js' ? this.targetRef.scrollIntoView({
+            <Link class="drop" to={{ pathname: `/`, state: { fromBanner: true } }} onClick={location.pathname === 'home.js' ? this.targetRef.scrollIntoView({
                 behavior: 'smooth'
             }) : undefined}><a>Projects</a></Link> | 
             <Link to={{ pathname: `/about` }} onClick={scrollTop}><a>About Me</a></Link> | 
-            <Link to={{ pathname: `/about`, state: { fromBanner: true } }} onClick={location.pathname == 'about.js' ? this.targetRef.scrollIntoView({
+            <Link to={{ pathname: `/about`, state: { fromBanner: true } }} onClick={location.pathname === 'about.js' ? this.targetRef.scrollIntoView({
                 behavior: 'smooth'
             }) : undefined}><a>Contact</a></Link>
             </p>
-            {/* </div>
-            <div > */}
                 <p className="copyright">
             <FontAwesomeIcon icon={faCopyright} className="icon" />Emily Weintraub 2020
             </p>
-            {/* </div> */}
         </footer>
     );
 }
