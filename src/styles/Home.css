@@ -10,7 +10,7 @@
 
 .Name {
  font-size: 60px;
- margin: 0 !important;
+ /* margin: 0 !important; */
  margin-top: 100px !important;
  font-family: Hind;
 }
@@ -34,10 +34,25 @@
     text-align: left;
 }
 
-.Proj{
+.Project{
     display: grid;
     /* padding: 5% 15%; */
-    grid-template-columns: 1.5fr 1fr;
     align-items: center;
-    padding: 0 10px !important;
+    padding: 2vh 1vw !important;
+}
+
+.Project.L{
+    grid-template-columns: 1fr 1.25fr;
+}
+
+.Project.R{
+    grid-template-columns: 1.25fr 1fr;
+}
+
+.Title{
+    font-size: 20px !important;
+}
+
+.Project-Description{
+    font-size: 15px !important;
 }

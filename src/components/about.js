@@ -34,9 +34,9 @@ class About extends Component {
                 <div className="info">
                     <div><img src={me} alt="me" /></div>
                     <div className="details">
-                        <h1>
+                        <h2>
                             Hi, I'm Emily!
-                    </h1>
+                    </h2>
                         <p>
                             I'm currently a senior at Northwestern studying Computer Science and Communication Studies. I'm passionate about problem solving and the power of technology in society. In my free time, you can find me watching the West Wing or listening to one of my favorite podcasts.
                     </p>
@@ -47,8 +47,8 @@ class About extends Component {
                         Get In Touch:
                 </h1>
                 <div className="Icons" ref={ref => {this.targetRef = ref}}>
-                    <Link to={{ pathname: `/contact.js` }}><FontAwesomeIcon icon={faEnvelope} className="icon" /></Link>
-                    <Link to={{ pathname: `/contact.js` }}><FontAwesomeIcon icon={faGithub} className="icon" /></Link>
+                <a href="mailto:emilysweintraub@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} className="icon" /></a>
+                <a href='https://github.com/emilyweintraub'><FontAwesomeIcon icon={faGithub} className="icon" /></a>
                     <a href='http://www.linkedin.com/in/emilyweintraub'><FontAwesomeIcon icon={faLinkedinIn} className="icon" /></a>
                     </div>
                 </div>
