@@ -42,12 +42,25 @@
     padding: 2vh 1vw !important;
 }
 
+.Projects-Details {
+    width: 80%;
+    padding-left: 10%;
+}
+
+/* .Project.L > .Project-Picture {
+    padding-right: 15%;
+} */
+
+.Project.R > .Project-Picture {
+    padding-left: 15%;
+}
+
 .Project.L{
-    grid-template-columns: 1fr 1.25fr;
+    grid-template-columns: .75fr 1.5fr;
 }
 
 .Project.R{
-    grid-template-columns: 1.25fr 1fr;
+    grid-template-columns: 1.5fr .75fr;
 }
 
 .Title{

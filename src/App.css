@@ -13,11 +13,11 @@ a {
   color: inherit;
 }
 
-p {
+p, li {
   font-family: Open Sans;
 }
 
-p, h1, h2 {
+p, h1, h2, li {
   color: #6B6D76;
 }
 
