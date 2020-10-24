@@ -6,6 +6,7 @@
   margin-left: 45px !important;
   /* color: #E3B7A6 !important; */
   color: #fb6d8e !important;
+  font-display:swap;
 }
 
 .topnav > a,
@@ -17,6 +18,7 @@
   font-weight: 600;
   color: #6b6d76;
   position: relative;
+  font-display:swap;
 }
 
 .topnav > a:hover,
